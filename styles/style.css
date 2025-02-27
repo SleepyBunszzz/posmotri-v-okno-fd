@@ -25,12 +25,11 @@ html {
 .content {
   display: grid;
   grid-template-areas: "result details";
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 711px 399px;
   grid-template-rows: auto auto;
   align-items: end;
   gap: 30px;
-  max-width: 1140px;
-  min-height: 534px;
+  inline-size: 1140px;
   margin: 0 auto;
   place-items: flex-end;
 }
