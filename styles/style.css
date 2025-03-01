@@ -76,7 +76,7 @@ html {
 .search-form__fieldset-title {
   font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21.6px;
   color: #ffffff;
@@ -125,7 +125,7 @@ html {
   outline: none;
 }
 
-.search-form__label:hover .search-form__label:text {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -232,7 +232,6 @@ html {
 
 .content__accent {
   color: #545050;
-  font-weight: bold;
 }
 
 .content__list-container {
@@ -298,7 +297,6 @@ html {
 .content__video-card-description-container {
   flex-grow: 1;
   flex-basis: 0;
-  overflow: hidden;
 }
 
 .content__video-card-title {
@@ -311,6 +309,7 @@ html {
   font-weight: 700;
   text-transform: uppercase;
   padding-bottom: 5px;
+  max-width: 196px;
 }
 
 .content__video-card-description {
@@ -319,7 +318,7 @@ html {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
   line-clamp: 4;
-  font-family: Fira Sans Condensed;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
 }
 
